@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f5420e5-192c-4582-b308-da15974b3060/deploy-status)](https://app.netlify.com/sites/hy-dhc/deploys)
+
 # gatsby-starter-dimension
 
 **This is a starter for Gatsby.js V2.**
