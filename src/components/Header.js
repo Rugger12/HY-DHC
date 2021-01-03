@@ -11,7 +11,7 @@ const Header = props => (
         <h1>HYU Digital healthcare center</h1>
         <p>
           디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고,{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          <a href="https://html5up.net">HTML5 UP</a>  Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공하기 위해 설립된 한양대학교 서울캠퍼스 부설 연구기관입니다.
           <br />
           for free under the{' '}
           <a href="https://html5up.net/license">Creative Commons</a> license.
