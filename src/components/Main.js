@@ -39,9 +39,12 @@ class Main extends React.Component {
               디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 
               공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고, 
               Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공을 목적으로 
-              2020년 9월 1일 (규정개정) 신설된 대학 서울캠퍼스 부설 연구기관이다.<br><br>
+              2020년 9월 1일 (규정개정) 신설된 대학 서울캠퍼스 부설 연구기관이다.
+          </p><p>
               > 영문명 : HYU Digital Healthcare Center, HY-DHC<br><br>
+          </p><p>
               [역사] 2020.09.01 신설(규정개정20200901)<br>
+          </p><p>
               [사업] 규정에 명시된 사업 내역(2020.09.01)<br>
                 1. Digital Therapeutics 기초 및 응용 연구를 통한 대학의 연구 경쟁력 제고 및 국제화<br>
                 2. Digital Therapeutics 관련 연구과제의 수행을 위한 정보 확보 및 연구과제의 도출<br>
