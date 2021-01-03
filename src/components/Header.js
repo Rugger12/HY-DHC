@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>HYU Digital healthcare center</h1>
         <p>
-          A fully responsive site template designed by{' '}
+          디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고, Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
           <br />
           for free under the{' '}
