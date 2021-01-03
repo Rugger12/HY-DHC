@@ -35,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Research & 
+            Connect & Development
           </button>
         </li>
         <li>
