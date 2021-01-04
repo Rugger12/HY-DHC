@@ -23,12 +23,12 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          className={`${this.props.article === 'ABOUT' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">ABOUT</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -60,12 +60,12 @@ class Main extends React.Component {
 
         <article
           id="work"
-          className={`${this.props.article === 'people' ? 'active' : ''} ${
+          className={`${this.props.article === 'PEOPLE' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">People</h2>
+          <h2 className="major">PEOPLE</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -81,17 +81,17 @@ class Main extends React.Component {
 
         <article
           id="about"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+          className={`${this.props.article === 'PROJECTS' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">PROJECTS</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Projects 소개가 들어갑니다.
+            한양디지털헬스케어센터의 C&D Projects 소개가 들어갑니다.
           </p>
           {close}
         </article>
