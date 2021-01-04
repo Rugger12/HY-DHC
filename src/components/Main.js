@@ -117,10 +117,14 @@ class Main extends React.Component {
             <img src={pic04} alt="" />
           </span>
           <p>
-            한양디지털헬스케어센터 연구원
+          한양디지털헬스케어센터 구성원
           </p>
           <p>
-          특임교수 송성원
+          송성원 특임교수 
+          </p>
+          <p>
+          </p>
+          <p>
           </p>
           <p>
           포닥연구원 박용현
