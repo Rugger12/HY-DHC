@@ -5,6 +5,10 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 
+
+import Video from "../components/video"
+
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -35,6 +39,12 @@ class Main extends React.Component {
           </span>
           <p>
           <a href="#about"></a>
+            <Video
+               videoSrcURL="https://youtu.be/jPvcabDywp8"
+               videoTitle="한양디지털헬스케어센터 소개"
+            />
+          </p>
+          <p>
               디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 
               공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고, 
               Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공을 목적으로 
