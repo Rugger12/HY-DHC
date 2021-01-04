@@ -22,7 +22,7 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
+          id="ABOUT"
           className={`${this.props.article === 'ABOUT' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
@@ -59,13 +59,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'PEOPLE' ? 'active' : ''} ${
+          id="DIRECTOR"
+          className={`${this.props.article === 'DIRECTOR' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">PEOPLE</h2>
+          <h2 className="major">DIRECTOR</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -105,7 +105,36 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="about"
+          id="PEOPLE"
+          className={`${this.props.article === 'PEOPLE' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">PEOPLE</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+            한양디지털헬스케어센터 연구원
+          </p>
+          <p>
+          특임교수 송성원
+          </p>
+          <p>
+          포닥연구원 박용현
+          </p>
+          <p>
+          박사과정 연구원 정성희
+          </p>
+          <p>
+          박사과정 연구원 김경희
+          </p>
+          {close}
+        </article>
+
+        <article
+          id="PROJECTS"
           className={`${this.props.article === 'PROJECTS' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
