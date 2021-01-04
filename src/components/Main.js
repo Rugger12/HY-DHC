@@ -23,7 +23,7 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -33,25 +33,26 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-          <a href="#work">awesome work</a>.
-          </p>
-          <p>
+          <a href="#about"></a>.
               디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 
               공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고, 
               Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공을 목적으로 
               2020년 9월 1일 (규정개정) 신설된 대학 서울캠퍼스 부설 연구기관이다.
-          </p><p>
-              > 영문명 : HYU Digital Healthcare Center, HY-DHC<br><br>
-          </p><p>
-              [역사] 2020.09.01 신설(규정개정20200901)<br>
-          </p><p>
-              [사업] 규정에 명시된 사업 내역(2020.09.01)<br>
-                1. Digital Therapeutics 기초 및 응용 연구를 통한 대학의 연구 경쟁력 제고 및 국제화<br>
-                2. Digital Therapeutics 관련 연구과제의 수행을 위한 정보 확보 및 연구과제의 도출<br>
-                3. 연구효율 증진을 목적으로 한 연구지원 시설의 관리 및 기타 연구자원의 운용<br>
-                4. 연구발표, 세미나 개최 및 이에 따르는 간행물 발간<br>
-                5. Digital Therapeutics 관련 학제간 융합연구를 통한 연구인력 양성<br>
-                6. 국내외 관련 연구기관과의 협력·협업 연구<br>
+          </p>
+          <p>
+              > 영문명 : HYU Digital Healthcare Center, HY-DHC
+          </p>
+          <p>
+              [역사] 2020.09.01 신설(규정개정20200901)
+          </p>
+          <p>
+              [사업] 규정에 명시된 사업 내역(2020.09.01)
+                1. Digital Therapeutics 기초 및 응용 연구를 통한 대학의 연구 경쟁력 제고 및 국제화
+                2. Digital Therapeutics 관련 연구과제의 수행을 위한 정보 확보 및 연구과제의 도출
+                3. 연구효율 증진을 목적으로 한 연구지원 시설의 관리 및 기타 연구자원의 운용
+                4. 연구발표, 세미나 개최 및 이에 따르는 간행물 발간
+                5. Digital Therapeutics 관련 학제간 융합연구를 통한 연구인력 양성
+                6. 국내외 관련 연구기관과의 협력·협업 연구
                 7. 기타 본 디지털헬스케어센터의 연구 목적에 필요한 사업
           </p>
           {close}
@@ -59,52 +60,38 @@ class Main extends React.Component {
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          className={`${this.props.article === 'people' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">People</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            한양디지털헬스케어센터 센터장: 김형숙 교수 (심리뇌과학과, 공공정책대학원)
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            연구원 소개가 들어가야 함.
+
           </p>
           {close}
         </article>
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Projects 소개가 들어갑니다.
           </p>
           {close}
         </article>
