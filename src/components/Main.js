@@ -39,10 +39,6 @@ class Main extends React.Component {
           </span>
           <p>
           <a href="#about"></a>
-             
-             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jPvcabDywp8?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-             </iframe>
-
           </p>
           <p>
               디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 
