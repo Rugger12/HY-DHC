@@ -35,6 +35,7 @@ class Main extends React.Component {
           </span>
           <p>
           <a href="#about"></a>
+          <iframe width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0"></iframe>
               디지털헬스케어센터는 Digital Therapeutics 및 그 응용과 관련된 연구를 체계적으로 수행하여 
               공학, 행동과학, 뇌신경과학, 임상, 인공지능 기반의 학제간 융합연구를 활성화하고, 
               Digital Therapeutics 데이터셋 구축 및 서비스 기술 제공을 목적으로 
