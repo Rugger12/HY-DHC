@@ -113,7 +113,7 @@ class Main extends React.Component {
         >
           <h2 className="major">PEOPLE</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic04} alt="" />
           </span>
           <p>
             한양디지털헬스케어센터 연구원
